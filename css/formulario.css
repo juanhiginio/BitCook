@@ -43,20 +43,6 @@ body {
     padding: 5px 5px;
 }
 
-.link-encabezado {
-    position: absolute;
-    right: 75px;
-    text-decoration: none;
-    font-size: 14px;
-    color: white;
-    cursor: pointer;
-    margin-right: 5px;
-}
-
-.link-encabezado:hover {
-    padding: 5px;
-}
-
 .img-modoOscuro {
     display: flex;
     align-items: center;
