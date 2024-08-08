@@ -7,6 +7,65 @@
     <title>Formulario BitCook</title>
 </head>
 <body>
-    
+    <div class="contenedor-principal">
+
+        <header class="contenedor-header">
+            <img class="logo" src="../assets/logo_bitcook.png" alt="Logo BitCook">
+            <a class="link-encabezado" href="">Envia Tú Receta...</a>
+            <button class="btn-activar-modo-oscuro"><img class="img-modoOscuro" src="../assets/luna.svg" alt="Boton modo Oscuro"></button>
+        </header>
+
+        <main>
+
+            <section class="contenido-formulario">
+
+                <div class="contenedor-titulo-formulario">
+                    <h1>Envianos Tú Receta!</h1>
+                </div>
+
+                <div class="contenedor-texto-formulario">
+                    <p>Dicen que todo luce mejor con un número impar de cosas. Pero a veces pongo números pares, sólo para molestar a los críticos. <span>Ejercitar la imaginación, experimentar talentos, ser creativo</span>; Estas cosas, para mí, son verdaderamente las <span>ventanas de tu alma.</span></p>
+                </div>
+
+                <form class="contenedor-preguntas-formulario">
+
+                    <div class="contenedor-pregunta">
+                        <label for="nombreReceta">Nombre De La Receta</label>
+                        <input type="text" name="nombreReceta" id="nombreReceta">
+                    </div>
+
+                    <div class="contenedor-pregunta">
+                        <label for="tiempoPreparacion">Tiempo De Preparación</label>
+                        <input type="number" name="tiempoPreparacion" id="tiempoPreparacion">
+                    </div>
+
+                    <div class="contenedor-pregunta">
+                        <label for="ingredientes">Ingredientes</label>
+                        <textarea name="ingredientes" id="ingredientes"></textarea>
+                    </div>
+
+                    <div class="contenedor-pregunta">
+                        <label for="instrucciones">Instrucciones</label>
+                        <textarea name="instrucciones" id="instrucciones"></textarea>
+                    </div>
+
+                    <div class="contenedor-boton-enviar">
+                        <button class="boton-enviar" type="submit">Send</button>
+                    </div>
+
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="contenido-footer">
+                <img class="logo" src="../assets/logo_bitcook.png" alt="Logo BitCook">
+                <img class="img-copyright" src="../assets/copyright.png" alt="Copyright">
+            </div>
+        </footer>
+
+    </div>
 </body>
 </html>
