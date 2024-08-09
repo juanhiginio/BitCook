@@ -407,3 +407,21 @@ a {
     text-decoration: none;
     color: black;
 }
+
+/* Modo Oscuro */
+
+.modoOscuroBody {
+    background-color: black;
+}
+
+.modoOscuroArticles {
+    background-color: #2F2F2F;
+}
+
+.modoOscuroTiempo {
+    background-color: #4E4D4E;
+}
+
+.modoOscuroTexto {
+    color: white;
+}

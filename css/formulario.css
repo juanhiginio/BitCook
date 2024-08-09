@@ -174,3 +174,22 @@ footer {
     width: 230px;
     height: 30px;
 }
+
+/* Modo Oscuro */
+
+.modoOscuroBody {
+    background-color: black;
+}
+
+.modoOscuroContenido {
+    background-color: #2F2F2F;
+}
+
+.modoOscuroInputs {
+    background-color: #4E4D4E !important;
+}
+
+
+.modoOscuroTexto {
+    color: white !important;
+}
